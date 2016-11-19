@@ -1,0 +1,19 @@
+
+第一页    &page=1
+http://weibo.com/languageexchange?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=1#feedtop
+
+#1 第一次下拉自动刷新 （XHR  只返回新的数据）   &pagebar=0
+ttp://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&refer_flag=1001030201_&is_all=1&pagebar=0&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&page=1&pre_page=1&domain_op=100505&__rnd=1479122830908
+
+#1 第二次下拉自动刷新     &pagebar=1
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&refer_flag=1001030201_&is_all=1&pagebar=1&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&page=1&pre_page=1&domain_op=100505&__rnd=1479123168510
+
+
+第二页    &page=1
+http://weibo.com/languageexchange?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#feedtop
+
+#2 第一次下拉自动刷新     &pagebar=0
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2&pagebar=0&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&pre_page=2&domain_op=100505&__rnd=1479123380183
+
+#2 第二次下拉自动刷新     &pagebar=1
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2&pagebar=1&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&pre_page=2&domain_op=100505&__rnd=1479123427310

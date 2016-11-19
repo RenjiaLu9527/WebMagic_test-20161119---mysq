@@ -1,0 +1,72 @@
+Apache	6047605616040.527.1448080352314	.weibo.com	/	Session	37				
+SCF	AlgxpR2USqF6Fji7UTnm3WPAXSxPvaTHOieYqWN7MyJy1v5yxV2Q-hY2tE5UNVwsFxBnzMn5WcgiNsH1rjhNTag.	.weibo.com	/	2026-11-12T01:31:14.457Z	91	?			
+SINAGLOBAL	9783050660043.955.1444436429273	.weibo.com	/	2025-10-07T00:20:29.000Z	41				
+SUB	_2AkMvdZnXdcNhrAZSkPwdyGLlbIpH-jzEiebBAn7uJhMyAxh87lggqSWzzXgljRwFaadrMYlAstBpNdzWwA..	.weibo.com	/	2017-11-14T01:43:59.565Z	89	?	
+
+		
+SUBP	0033WrSXqPxfM72wWs9jqgMF55529P9D9WWl1Rubc6Ms11SFjwUxOq6g5JpVF02fSo-E1KqEeK.p	.weibo.com	/	2026-11-12T01:43:59.565Z	80	
+			
+SUHB	0TPVn1IzUk0JUc	.weibo.com	/	2017-11-14T01:31:14.458Z	18				
+
+TC-V5-G0	c427b4f7dad4c026ba2b0431d93d839e	weibo.com	/	Session	40				
+
+ULV	1448080352379:5:3:2:6047605616040.527.1448080352314:1447737055439	.weibo.com	/	2016-11-15T04:32:32.000Z	68				
+UOR	www.doc88.com,widget.weibo.com,login.sina.com.cn	.weibo.com	/	2017-11-14T01:44:01.000Z	51	
+			
+WBtopGlobal_register_version	8a840560e41b693d	weibo.com	/	Session	44				
+YF-Page-G0	0acee381afd48776ab7a56bd67c2e7ac	weibo.com	/	Session	42				
+YF-Ugrow-G0	3a02f95fa8b3c9dc73c74bc9f2ca4fc6	weibo.com	/	Session	43				
+
+YF-V5-G0	82f55bdb504a04aef59e3e99f6aad4ca	weibo.com	/	Session	40				
+__gads	ID=d91a3b6697e9a922:T=1464099918:S=ALNI_MZqz9VgWhRKVtCwoCF64EvtkXAOUg	.weibo.com	/	2018-05-24T14:25:18.000Z	75		
+		
+_ga	GA1.2.194882159.1464099827	.weibo.com	/	2018-05-24T14:23:46.000Z	29				
+_s_tentry	blog.csdn.net	.weibo.com	/	Session	22				
+appkey		.weibo.com	/	Session	6				
+login_sid_t	3095e286b4630e49b1722a9acc4bdc71	.weibo.com	/	Session	43				
+un	15652962191	.weibo.com	/	2016-11-24T01:31:15.000Z	13				
+
+
+
+
+
+///////////////////////////////////////////////
+	private Site site = new Site().setRetryTimes(3).setSleepTime(1000)  
+            //添加cookie之前一定要先设置主机地址，否则cookie信息不生效  
+            .setDomain("www.weibo.com")  
+            //添加抓包获取的cookie信息  	
+
+            .addCookie("Apache", "6047605616040.527.1448080352314")  
+            .addCookie("SCF",  
+                    "AlgxpR2USqF6Fji7UTnm3WPAXSxPvaTHOieYqWN7MyJy1v5yxV2Q-hY2tE5UNVwsFxBnzMn5WcgiNsH1rjhNTag.")  
+            .addCookie("SINAGLOBAL", "9783050660043.955.1444436429273")
+            .addCookie("SUB", "_2AkMvdZnXdcNhrAZSkPwdyGLlbIpH-jzEiebBAn7uJhMyAxh87lggqSWzzXgljRwFaadrMYlAstBpNdzWwA..")  
+            
+            .addCookie("SUBP", "0033WrSXqPxfM72wWs9jqgMF55529P9D9WWl1Rubc6Ms11SFjwUxOq6g5JpVF02fSo-E1KqEeK.p")
+            .addCookie("SUHB", "0TPVn1IzUk0JUc")  
+            .addCookie("TC-V5-G0", "c427b4f7dad4c026ba2b0431d93d839e")
+            .addCookie("ULV", "1448080352379:5:3:2:6047605616040.527.1448080352314:1447737055439")  
+            .addCookie("UOR", "www.doc88.com,widget.weibo.com,login.sina.com.cn")  
+            
+            .addCookie("WBtopGlobal_register_version", "8a840560e41b693d")  
+            .addCookie("YF-Page-G0", "0acee381afd48776ab7a56bd67c2e7ac")  
+            
+            .addCookie("YF-Ugrow-G0", "3a02f95fa8b3c9dc73c74bc9f2ca4fc6")  
+            
+            .addCookie("YF-V5-G0", "82f55bdb504a04aef59e3e99f6aad4ca")  
+            
+            .addCookie("__gads", "ID=d91a3b6697e9a922:T=1464099918:S=ALNI_MZqz9VgWhRKVtCwoCF64EvtkXAOUg")  
+            .addCookie("_ga", "GA1.2.194882159.1464099827")  
+            .addCookie("_s_tentry", "blog.csdn.net")  
+            .addCookie("appkey", "")  
+            .addCookie("un", "15652962191")  
+            .addCookie("login_sid_t", "3095e286b4630e49b1722a9acc4bdc71")  
+       
+            //添加请求头，有些网站会根据请求头判断该请求是由浏览器发起还是由爬虫发起的  
+            .addHeader("User-Agent",  
+                    "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.245")  
+            .addHeader("Accept", "*/*")  
+            .addHeader("Accept-Encoding", "gzip, deflate, sdch")
+            .addHeader("Accept-Language", "zh-CN,zh;q=0.8")  
+            .addHeader("Connection", "keep-alive")
+            .addHeader("Referer", "http://weibo.com/languageexchange?refer_flag=1001030201_&is_all=1"); 

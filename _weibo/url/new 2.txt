@@ -1,0 +1,28 @@
+初始
+http://rm.api.weibo.com/2/remind/push_count.json?trim_null=1&with_dm_group=0&with_settings=1&exclude_attitude=1&with_common_cmt=1&with_comment_attitude=1&with_common_attitude=1&with_moments=1&with_dm_unread=1&msgbox=true&with_page_group=1&with_chat_group=1&with_chat_group_notice=1&_pid=100505&count=1&source=351354573&status_type=0&callback=STK_147912215045315
+
+
+第二页
+http://weibo.com/languageexchange?is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2#feedtop
+
+
+第一次下拉自动刷出来的数据（只返回新的数据） XHR
+
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&refer_flag=1001030201_&is_all=1&pagebar=0&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&page=1&pre_page=1&domain_op=100505&__rnd=1479121080261
+
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&refer_flag=1001030201_&is_all=1&pagebar=0&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&page=1&pre_page=1&domain_op=100505&__rnd=1479122830908
+
+
+第二次下拉自动刷出来的数据（只返回新的数据） XHR
+
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&refer_flag=1001030201_&is_all=1&pagebar=1&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&page=1&pre_page=1&domain_op=100505&__rnd=1479123168510
+
+
+
+//#2
+第一次下拉自动刷出来的数据（只返回新的数据） XHR
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2&pagebar=0&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&pre_page=2&domain_op=100505&__rnd=1479123380183
+
+//#2
+第二次下拉自动刷出来的数据（只返回新的数据） XHR
+http://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100505&is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&page=2&pagebar=1&pl_name=Pl_Official_MyProfileFeed__23&id=1005052664646187&script_uri=/languageexchange&feed_type=0&pre_page=2&domain_op=100505&__rnd=1479123427310
